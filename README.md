@@ -32,3 +32,20 @@
 ### Image 3: Weather Travel Map
 
 ![Weather Travel Map](https://github.com/mrma2318/World_Weather_Analysis/blob/af7aa1cda16e8966b84076f6845c9ee4335fa9fb/Resources/Weather%20Vacation%20Map.png)
+
+- Now that we have the customers destinations and their travel map of their four destinations, I can refactor my code and create another map layer that shows the information boxes of the four cities. Therefore, I first needed to use the concat() function to put the four cities into their own DataFrame. This way when I refactor my code, it will focus only on the four cities they want to travel to instead of all the cities around the world that meet their original critieria. 
+
+### Refactored Weather Map Code
+
+![Refactored Weather Map Code](https://github.com/mrma2318/World_Weather_Analysis/blob/967f67c4160b21b9bcca5b9ae7c6e29ba5d900a4/Resources/Refactored%20Weather%20Map%20Code.png)
+
+### Image 4: Weather Map Itinerary
+
+![Weather Map Itinerary](https://github.com/mrma2318/World_Weather_Analysis/blob/967f67c4160b21b9bcca5b9ae7c6e29ba5d900a4/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
+
+## Summary
+- I was able to successfully assist PlanMyTrip take their app to the next level by helping customers choose their temperature minimum and maximum requirements, choose travel destinations, and provide a travel destination map and information. The temperature requirements allow customers to choose a temperature range they would like to stay in for their trip. Once the map generates map markers with their desired temperature requirements, they can search the destinations to pick where they want to go. Once they decide where they want to go, the map provides hotels in each city, where the customer can choose destinations to travel to while in that country. Finally, after they decide where they want to travel to, we can show them a map with the travel destinations and the itinerary of each city they want to travel to. 
+
+- There are some limitations to this analysis though. The map only provides one hotel per city, so customers don't have multiple options of hotels to chose from in one city. The hotel that is provided on the map, may not be the hotel customers want to stay at and could potentially search for other hotels on another app. 
+
+- Another limitation to this analysis is that the travel destination does not provide the amount of time it takes to travel to the different cities. It provides a map layout and the path you want to take, but it doesn't provide the time it takes to get from one city to the next. 
